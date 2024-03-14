@@ -1,0 +1,4 @@
+<div *ngFor="let hotel of hotels$ | async">
+    <p-card [header]="hotel.name" [subheader]="hotel.address?.postalAddress">
+    </p-card>
+</div>
